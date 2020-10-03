@@ -49,27 +49,14 @@ h1{
 
 
 
-/* @media screen and (max-width: 1000px) {
-  h1{
-    padding: 180px 180px;
-    font-size: 6rem;
-  }
-  .head{
+@media screen and (max-width: 1000px) {
 
-    width: 100%;
-    height: 2000px;
-    background-image: url("bgimg1.png");
-
-  }
-  #carouselExampleInterval{
-    margin: 0;
-  }
   .imgs{
-    height: 400px;
+    height: 1000px;
 
 
   } 
 
 
 
-}*/
+}

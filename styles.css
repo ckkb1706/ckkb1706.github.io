@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+
+}
+.head{
+
+  width: 100%;
+  height: auto;
+  background-image: url("bgimg.png");
+
+}
+h1{
+  margin: 0;
+  font-family: 'Tangerine', cursive;
+  padding: 160px 150px;
+  text-align: center;
+  font-size: 6.5rem;
+  line-height: 1.5;
+  color: #edc988;
+}
+.head1{
+  padding: 70px 0;
+  background-color: black;
+}
+.head1 h1{
+  padding: 10px 0 0 0;
+  line-height: 0.8;
+
+
+}
+.head1 p{
+  margin: 0;
+  font-family: 'Tangerine', cursive;
+  text-align: center;
+  color: #edc988;
+  font-size: 1.5rem;
+}
+
+.imgs{
+  height: 480px;
+  width: auto;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+#carouselExampleInterval{
+  margin: 0 200px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  h1{
+    padding: 80px 50px 80px 50px;
+    font-size: 4rem;
+  }
+  .head{
+
+    width: 100%;
+    height: 500px;
+    background-image: url("bgimg1.png");
+
+  }
+  #carouselExampleInterval{
+    margin: 0;
+  }
+  .imgs{
+    height: 400px;
+
+
+  }
+
+
+
+}

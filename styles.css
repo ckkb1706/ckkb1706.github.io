@@ -60,7 +60,13 @@ h1{
   #carouselExampleInterval{
   margin: 0 ;
 }
-
+.head1 p{
+  margin: 0;
+  font-family: 'Tangerine', cursive;
+  text-align: center;
+  color: #edc988;
+  font-size: 3rem;
+}
 
 
 }
